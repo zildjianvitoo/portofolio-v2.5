@@ -24,7 +24,7 @@ export default function Home() {
               href={"/my-skills"}
               className="relative rounded-[20px] bg-blue-500 group hover:bg-blue-600 px-5 py-3 text-lg text-white max-w-[200px]"
             >
-              Baca selengkapnya
+              Selengkapnya
             </Link>
             <Link
               href={"/my-projects"}

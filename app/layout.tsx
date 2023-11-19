@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Inter, Outfit, Poppins } from "next/font/google";
 import "./globals.css";
+import Navbar from "@/components/Navbar";
 
 const outfit = Outfit({ subsets: ["latin"] });
 const poppins = Poppins({
@@ -20,7 +21,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={outfit.className}>{children}</body>
+      <body className={outfit.className + " overflow-x-hidden"}>
+        <Navbar />
+        {children}
+      </body>
     </html>
   );
 }
