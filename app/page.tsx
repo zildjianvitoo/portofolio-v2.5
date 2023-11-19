@@ -65,7 +65,7 @@ export default function Home() {
         </Link>
       </div>
       <div className="absolute  bottom-0 right-0 z-10">
-        <Image
+        <img
           src={"/assets/horse.png"}
           alt="kuda"
           height={300}
@@ -88,7 +88,7 @@ export default function Home() {
           className="w-full h-full"
         />
       </div>
-      <Image
+      <img
         src={"/assets/stars.png"}
         alt="bintang"
         height={300}
