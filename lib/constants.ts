@@ -1,7 +1,11 @@
-import { RxHome, RxPerson, RxDashboard, RxClipboard } from "react-icons/rx";
+import { IoPersonSharp } from "react-icons/io5";
+import { AiFillHome } from "react-icons/ai";
 import { FaLinkedin } from "react-icons/fa6";
 import { RiInstagramFill } from "react-icons/ri";
 import { IoLogoWhatsapp } from "react-icons/io";
+import { MdDashboard } from "react-icons/md";
+import { FaClipboard } from "react-icons/fa";
+
 export const skills = [
   {
     name: "Html 5",
@@ -121,22 +125,22 @@ export const projects = [
 export const navLinks = [
   {
     name: "/",
-    icon: RxHome,
+    icon: AiFillHome,
     link: "/",
   },
   {
     name: "/my-skills",
-    icon: RxPerson,
+    icon: IoPersonSharp,
     link: "/my-skills",
   },
   {
     name: "/my-projects",
-    icon: RxDashboard,
+    icon: MdDashboard,
     link: "/my-projects",
   },
   {
     name: "/contact-me",
-    icon: RxClipboard,
+    icon: FaClipboard,
     link: "/contact-me",
   },
 ];

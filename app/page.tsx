@@ -8,10 +8,10 @@ export default function Home() {
         className="flex items-center w-full h-full bg-cover bg-center"
         style={{ backgroundImage: "url(/assets/main-bg.webp)" }}
       >
-        <div className="md:px-20 ml-10 mb-[400px] md:mb-20 flex flex-col z-10 max-w-[750px] gap-5">
+        <div className="md:px-20 ml-10 mb-[300px] xxs:mb-[400px] md:mb-20 flex flex-col z-10 max-w-[750px] gap-5">
           <h1 className="text-[36px] sm:text-[50px] text-white font-semibold">
             Buat semuanya memungkinkan dengan{" "}
-            <span className="text-transparent font-bold bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
+            <span className="text-transparent font-bold bg-clip-text bg-gradient-to-r from-purple-500 to-red-500">
               Web Development
             </span>
           </h1>
@@ -22,22 +22,22 @@ export default function Home() {
           <div className="hidden md:flex flex-col md:flex-row gap-5">
             <Link
               href={"/my-skills"}
-              className="relative rounded-[20px] bg-blue-500 group hover:bg-blue-600 px-5 py-3 text-lg text-white max-w-[200px]"
+              className="relative rounded-[20px] bg-purple-700 group hover:bg-red-800 px-5 py-3 text-lg text-white max-w-[200px]"
             >
               Selengkapnya
             </Link>
             <Link
               href={"/my-projects"}
-              className="relative rounded-[20px] bg-blue-500 group hover:bg-blue-600 px-5 py-3 text-lg text-white max-w-[200px]"
+              className="relative rounded-[20px] bg-purple-700 group hover:bg-red-800 px-5 py-3 text-lg text-white max-w-[200px]"
             >
-              <div className=" absolute rounded-[20px] z-[1] bg-white inset-0 opacity-0 group-hover:opacity-20" />
+              <div className=" absolute rounded-[20px] z-[1] bg-white inset-0 opacity-0 group-hover:opacity-10" />
               Project saya
             </Link>
             <Link
               href={"/contact-me"}
-              className="relative rounded-[20px] bg-blue-500 group hover:bg-blue-600 px-5 py-3 text-lg text-white max-w-[200px]"
+              className="relative rounded-[20px] bg-purple-700 group hover:bg-red-800 px-5 py-3 text-lg text-white max-w-[200px]"
             >
-              <div className=" absolute rounded-[20px] z-[1] bg-white inset-0 opacity-0 group-hover:opacity-20" />
+              <div className=" absolute rounded-[20px] z-[1] bg-white inset-0 opacity-0 group-hover:opacity-10" />
               Hubungi saya
             </Link>
           </div>
@@ -46,20 +46,20 @@ export default function Home() {
       <div className="absolute flex bottom-10 z-20 right-5 flex-col md:hidden gap-5">
         <Link
           href={"/my-skills"}
-          className="rounded-[20px] text-center bg-blue-500 group hover:bg-blue-400 px-5 py-3 text-lg text-white max-w-[200px]"
+          className="rounded-[20px] text-center bg-purple-700 group hover:bg-red-800 px-5 py-3 text-lg text-white max-w-[200px]"
         >
           Baca selengkapnya
         </Link>
         <Link
           href={"/my-projects"}
-          className="rounded-[20px] text-center bg-blue-500 group hover:bg-blue-400 px-5 py-3 text-lg text-white max-w-[200px]"
+          className="rounded-[20px] text-center bg-purple-700 group hover:bg-red-800 px-5 py-3 text-lg text-white max-w-[200px]"
         >
           <div className=" absolute rounded-[20px] z-[1] bg-white inset-0 opacity-0 group-hover:opacity-20" />
           Project saya
         </Link>
         <Link
           href={"/contact-me"}
-          className="rounded-[20px] text-center bg-blue-500 group hover:bg-blue-400 px-5 py-3 text-lg text-white max-w-[200px]"
+          className="rounded-[20px] text-center bg-purple-700 group hover:bg-red-800 px-5 py-3 text-lg text-white max-w-[200px]"
         >
           Hubungi saya
         </Link>
