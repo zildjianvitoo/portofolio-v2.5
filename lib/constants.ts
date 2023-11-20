@@ -89,24 +89,24 @@ export const socials = [
 ];
 export const projects = [
   {
-    title: "Modern Nextjs Website",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-    src: "/NextWebsite.png",
+    title: "Srifoton Website",
+    text: "Website Srifoton yang saya buat solo menggunakan Techstack Nextjs Page Routes dan Tailwind.",
+    src: "/assets/srifoton.png",
   },
   {
-    title: "Space Themed Website",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-    src: "/SpaceWebsite.png",
+    title: "BeliAja",
+    text: "Web App E-Commerce Full Functionality CRUD yang dibuat menggunakan Nextjs 13 dan Prisma sebagai ORM nya.",
+    src: "/assets/beliaja.png",
   },
   {
-    title: "Modern Nextjs Portfolio",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-    src: "/WebPortfolio.png",
+    title: "RavCare",
+    text: "Website kesehatan yang dibuat menggunakan Nextjs + Tailwind + Aos.",
+    src: "/assets/ravcare.png",
   },
   {
-    title: "Matrix themed Website",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-    src: "/Matrix.png",
+    title: "EduSri",
+    text: "Website bertema Pendidikan yang dibuat menggunakan Nextjs + Tailwind.",
+    src: "/assets/edusri.png",
   },
 ];
 

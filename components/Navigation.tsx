@@ -48,7 +48,7 @@ export default function Navigation() {
 
       <div
         className={`flex  absolute  z-[50] sm:hidden gap-4 items-center p-8 ${
-          path === "/my-skills"
+          path === "/my-skills" || path === "/contact-me"
             ? "flex-row left-[8%] xxs:left-0 gap-8 xxs:gap-4 bottom-0"
             : "flex-col sm:flex-row -bottom-10"
         }`}

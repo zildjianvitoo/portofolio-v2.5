@@ -22,7 +22,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={outfit.className + " overflow-hidden"}>
+      <body className={outfit.className + " "}>
         <Navbar />
         {children}
         <Navigation />
