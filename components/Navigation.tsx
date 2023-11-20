@@ -28,6 +28,7 @@ export default function Navigation() {
       return () => clearTimeout(timeout);
     }
   }, [isRouting]);
+
   return (
     <>
       <div className="absolute hidden sm:flex  z-[50] -bottom-20 w-1/2 md:w-1/4 max-h-[150px] rounded-full justify-between items-center border border-white left-1/5 pb-7">
@@ -45,7 +46,13 @@ export default function Navigation() {
         </div>
       </div>
 
-      <div className=" flex flex-col sm:flex-row absolute bottom-4 z-[50] sm:hidden gap-4 items-center p-8">
+      <div
+        className={`flex  absolute  z-[50] sm:hidden gap-4 items-center p-8 ${
+          path === "/my-skills"
+            ? "flex-row left-[8%] xxs:left-0 gap-8 xxs:gap-4 bottom-0"
+            : "flex-col sm:flex-row -bottom-10"
+        }`}
+      >
         {isRouting && <Transition />}
         {navLinks.map((nav) => (
           <Link key={nav.name} href={nav.link} className=" min-w-[25%]">

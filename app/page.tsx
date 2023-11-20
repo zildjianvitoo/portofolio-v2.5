@@ -46,20 +46,20 @@ export default function Home() {
       <div className="absolute flex bottom-10 z-20 right-5 flex-col md:hidden gap-5">
         <Link
           href={"/my-skills"}
-          className="rounded-[20px] text-center bg-purple-700 group hover:bg-red-800 px-5 py-3 text-lg text-white max-w-[200px]"
+          className="relative rounded-[20px] text-center bg-purple-700 group hover:bg-red-800 px-5 py-3 text-lg text-white max-w-[200px]"
         >
           Baca selengkapnya
         </Link>
         <Link
           href={"/my-projects"}
-          className="rounded-[20px] text-center bg-purple-700 group hover:bg-red-800 px-5 py-3 text-lg text-white max-w-[200px]"
+          className="relative rounded-[20px] text-center bg-purple-700 group hover:bg-red-800 px-5 py-3 text-lg text-white max-w-[200px]"
         >
           <div className=" absolute rounded-[20px] z-[1] bg-white inset-0 opacity-0 group-hover:opacity-20" />
           Project saya
         </Link>
         <Link
           href={"/contact-me"}
-          className="rounded-[20px] text-center bg-purple-700 group hover:bg-red-800 px-5 py-3 text-lg text-white max-w-[200px]"
+          className="relative rounded-[20px] text-center bg-purple-700 group hover:bg-red-800 px-5 py-3 text-lg text-white max-w-[200px]"
         >
           Hubungi saya
         </Link>

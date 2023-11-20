@@ -9,76 +9,64 @@ import { FaClipboard } from "react-icons/fa";
 export const skills = [
   {
     name: "Html 5",
-    Image: "/html.png",
+    image: "/assets/html.png",
     width: 80,
     height: 80,
   },
   {
     name: "Css",
-    Image: "/css.png",
+    image: "/assets/css.png",
     width: 80,
     height: 80,
   },
   {
     name: "JavaScript",
-    Image: "/js.png",
+    image: "/assets/js.png",
     width: 65,
     height: 65,
   },
   {
     name: "Tailwind Css",
-    Image: "/tailwind.png",
+    image: "/assets/tailwind.png",
     width: 80,
     height: 80,
   },
   {
     name: "React",
-    Image: "/react.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    name: "Redux",
-    Image: "/redux.png",
+    image: "/assets/react.png",
     width: 80,
     height: 80,
   },
 
   {
     name: "TypeScript",
-    Image: "/ts.png",
+    image: "/assets/ts.png",
     width: 80,
     height: 80,
   },
   {
-    name: "Next js 13",
-    Image: "/next.png",
+    name: "Next js 14",
+    image: "/assets/next.png",
     width: 80,
     height: 80,
   },
   {
     name: "Framer Motion",
-    Image: "/framer.png",
+    image: "/assets/framer.png",
     width: 80,
     height: 80,
   },
   {
     name: "Stripe Payment",
-    Image: "/stripe.webp",
+    image: "/assets/stripe.webp",
     width: 80,
     height: 80,
   },
   {
     name: "Node js",
-    Image: "/node-js.png",
+    image: "/assets/node-js.png",
     width: 80,
     height: 80,
-  },
-  {
-    name: "Mongo db",
-    Image: "/mongodb.png",
-    width: 40,
-    height: 40,
   },
 ];
 
